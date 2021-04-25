@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production",
     "build:dev": "webpack --mode=development",
     "precleanstart": "node clean.js",
-    "server": "webpack-cli serve --mode=development"
+    "server": "webpack-cli serve --mode=development",
+    "init": "node init.js"
   },
   "author": "",
   "license": "ISC",
