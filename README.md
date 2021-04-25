@@ -1,15 +1,24 @@
 # 🚀 Welcome to your new awesome project!
 
-This project has been created using **webpack-cli**, you can now run
+- Instala las dependencias NPM
 
+```
+npm install
+```
+
+- Inicializa el repo para crear la estructura de ficheros y carpetas
+
+```
+npm run init
+```
+
+- Habilitar con el server local
+```
+npm run server
+```
+
+- Compilar
 ```
 npm run build
 ```
 
-or
-
-```
-yarn build
-```
-
-to bundle your application
