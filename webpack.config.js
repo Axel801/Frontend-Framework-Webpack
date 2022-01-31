@@ -19,6 +19,7 @@ module.exports = {
     devServer: {
         open: true,
         host: 'localhost',
+        watchFiles:["src/**/*"]
     },
     plugins: [
         // new CleanWebpackPlugin(),
